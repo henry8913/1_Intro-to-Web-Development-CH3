@@ -1,18 +1,17 @@
-# Fondamenti di Programmazione
+# Introduzione al Web Development
 
-Impara i fondamenti dell’informatica e della programmazione sviluppando la prima vera web app! In questo modulo impareremo JavaScript, HTML e GIT così da poter creare da zero la nostra prima web app.
+Impara i fondamenti del web development e rompi il ghiaccio creando le tue prime pagine web. In questo modulo, impareremo HTML, CSS e Bootstrap così da poter costruire la tua prima pagina web.
 
-## Argomenti Trattati
+## Cosa Imparerai:
 
-- **Fondamenti di programmazione**
-  - Variabili
-  - Condizioni
-  - Oggetti
-  - Cicli
+- **HTML**
+  - Impara a strutturare le pagine web.
 
-- **Version Control**
-  - GIT
+- **CSS3**
+  - Stilizza e disegna le tue pagine web.
 
-- **Introduzione a Javascript**
+- **Bootstrap**
+  - Utilizza questo framework per design responsive e moderno.
 
-- **Javascript + DOM**
+- **CSS Animations**
+  - Aggiungi animazioni coinvolgenti per migliorare l'interattività.
