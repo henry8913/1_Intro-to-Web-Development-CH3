@@ -1,0 +1,126 @@
+body {
+    width: 100%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.7525603991596639) 0%, rgba(70,252,230,0.7525603991596639) 100%);
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Barrio", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#album1 {
+    width: 440px;
+    height: 620px;
+    border-radius: 25px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 8px black;
+    transition: box-shadow 2.5s;
+    position: relative;
+}
+
+#album1:hover {
+    box-shadow: 0 0 8px red;
+}
+
+#album1:hover .save {
+    transform: translateY(520px);
+}
+
+#album1:hover #bottone {
+    transform: translateY(-520px) translateX(250px);
+}
+
+#album1:hover #button {
+    transform: translateY(-520px) translateX(-300px);
+}
+
+#link, #sito, #download, #menu {
+    position: absolute;
+    margin: 0;
+    bottom: 5%;
+    width: 8%;
+    border: none;  
+}
+
+#link {
+    left: 5%;
+    z-index: 2;
+}
+
+#download, #menu {
+    border-radius: 100px;
+}
+
+#download {
+    right: 15%;
+    z-index: 2;
+}
+
+#menu {
+    right: 5%;
+    z-index: 2;
+}
+
+#bottone {
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 2.5s linear; 
+}
+
+#button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    transition: transform 2.0s linear; 
+}
+
+#bottone i, #bottone h3 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.save {
+    right: 5%;
+    top: 5%;
+    position: absolute;
+    background-color: red;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    color: white;
+    z-index: 2;
+    transition: transform 2.5s linear;  
+}
+
+h3 {
+    font-family: "Barrio", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#gradiente {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(16,200,39);
+    background: linear-gradient(80deg, rgba(16,200,39,0.5032606792717087) 25%, rgba(196,193,27,0.5004595588235294) 75%);
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 1.5s linear;
+}
+
+#gradiente:hover {
+    opacity: 0;
+}
+
+.fa-solid fa-download {
+    right: 5%;
+}
